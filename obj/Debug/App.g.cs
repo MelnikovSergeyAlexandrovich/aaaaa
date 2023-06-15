@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using ScottPlot;
 using SunClounds;
 using System;
 using System.Diagnostics;

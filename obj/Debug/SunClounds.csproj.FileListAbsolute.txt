@@ -1,0 +1,16 @@
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.AssemblyReference.cache
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\MainWindow.baml
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\SecondWindow.baml
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\MainWindow.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\SecondWindow.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\App.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds_MarkupCompile.cache
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.g.resources
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.Properties.Resources.resources
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.GenerateResource.cache
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.CoreCompileInputs.cache
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\Diagram_FeelsLike.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\Diagram_Pressure.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\Diagram_Temp.g.cs
+C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds_MarkupCompile.lref
