@@ -33,3 +33,4 @@ C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\View\Diagram_Temp.baml
 C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.CopyComplete
 C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.exe
 C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.pdb
+C:\Users\mrpor\source\repos\finalPract\bin\Debug\PresentationFramework.dll
