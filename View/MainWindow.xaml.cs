@@ -12,7 +12,9 @@ namespace SunClounds
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Grid_Main.Visibility = Visibility.Collapsed;
-            Mainwindow.Content = new SecondWindow();
+            Window window = new SecondWindow();
+            window.Show();
+            this.Close();
         }
     }
 }

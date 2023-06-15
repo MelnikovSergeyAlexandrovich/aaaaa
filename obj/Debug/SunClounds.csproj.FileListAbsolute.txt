@@ -34,3 +34,39 @@ C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.csproj.CopyComplete
 C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.exe
 C:\Users\mrpor\Source\Repos\finalPract\obj\Debug\SunClounds.pdb
 C:\Users\mrpor\source\repos\finalPract\bin\Debug\PresentationFramework.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\SunClounds.exe.config
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\SunClounds.exe
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\SunClounds.pdb
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\PresentationFramework.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\ScottPlot.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\ScottPlot.WPF.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\System.Drawing.Common.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\System.ValueTuple.dll
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\ScottPlot.xml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\Debug\System.ValueTuple.xml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.csproj.AssemblyReference.cache
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\MainWindow.baml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\SecondWindow.baml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_FeelsLike.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_Pressure.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_Temp.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\MainWindow.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\SecondWindow.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\App.g.cs
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds_MarkupCompile.cache
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds_MarkupCompile.lref
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_FeelsLike.baml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_Pressure.baml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Diagram_Temp.baml
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.g.resources
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.Properties.Resources.resources
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.csproj.GenerateResource.cache
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.csproj.CoreCompileInputs.cache
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.csproj.CopyComplete
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.exe
+C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\SunClounds.pdb
