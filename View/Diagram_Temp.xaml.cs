@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using static SunClounds.Diagram_Data;
 
 namespace SunClounds.View
 {

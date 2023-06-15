@@ -80,6 +80,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Diagram_Data.cs" />
     <Compile Include="View\Diagram_FeelsLike.xaml.cs">
       <DependentUpon>Diagram_FeelsLike.xaml</DependentUpon>
     </Compile>
@@ -149,7 +150,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

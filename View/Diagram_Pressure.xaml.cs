@@ -4,23 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using static SunClounds.Diagram_Data;
 
 namespace SunClounds.View
 {
-    /// <summary>
-    /// Логика взаимодействия для Diagram_Pressure.xaml
-    /// </summary>
     public partial class Diagram_Pressure : Page
     {
         private string apiKey = "fb4ec98dbce85ed324c4b036f055f0d9";
