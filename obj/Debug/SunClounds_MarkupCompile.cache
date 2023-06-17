@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Source\Repos\newRepfinalPract\obj\Debug\
+C:\Users\User\Source\Repos\newepfinalPract\obj\Debug\
 SunClounds
 none
 false
 DEBUG;TRACE
-C:\Users\User\Source\Repos\newRepfinalPract\App.xaml
-6-46489060
-101228922210
-11-121541223
-1351170250342
-CityCard.xaml;View\Diagram_FeelsLike.xaml;View\Diagram_Pressure.xaml;View\Diagram_Temp.xaml;View\MainWindow.xaml;View\SecondWindow.xaml;
+C:\Users\User\Source\Repos\newepfinalPract\App.xaml
+6-2039107389
+10-184001510
+12-1306892228
+135-730477978
+View\CityCard.xaml;View\Diagram_FeelsLike.xaml;View\Diagram_Pressure.xaml;View\Diagram_Temp.xaml;View\MainWindow.xaml;View\SecondWindow.xaml;
 
-False
+True
 

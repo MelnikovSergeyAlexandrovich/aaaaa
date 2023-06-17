@@ -133,6 +133,9 @@
     <Compile Include="View\SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WeatherCard.xaml.cs">
+      <DependentUpon>WeatherCard.xaml</DependentUpon>
+    </Compile>
     <Page Include="View\CityCard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,6 +165,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WeatherCard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
