@@ -117,6 +117,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="kartochka.xaml.cs">
+      <DependentUpon>kartochka.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Model\Diagram_Data.cs" />
     <Compile Include="View\Diagram_FeelsLike.xaml.cs">
       <DependentUpon>Diagram_FeelsLike.xaml</DependentUpon>
@@ -130,6 +133,10 @@
     <Compile Include="View\SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="kartochka.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Diagram_FeelsLike.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -177,6 +184,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Jura-Regular.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
