@@ -112,3 +112,7 @@ C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\bin\D
 C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Window1.g.cs
 C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Vanya\OneDrive\Рабочий стол\проекти)\finalPract\obj\Debug\View\Window1.baml
+D:\fin\finalPract\obj\Debug\SunClounds.csproj.AssemblyReference.cache
+D:\fin\finalPract\obj\Debug\SunClounds.csproj.SuggestedBindingRedirects.cache
+D:\fin\finalPract\obj\Debug\SunClounds.exe
+D:\fin\finalPract\obj\Debug\SunClounds.pdb
