@@ -21,7 +21,7 @@
         <Grid Grid.Column="2">
             <TabControl Height="auto">
                 <TabItem Header="Погода" VerticalAlignment="Top" HorizontalAlignment="Right"/>
-                <TabItem Header="Настройки" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <TabItem Header="Настройки" HorizontalAlignment="Left" Margin="-2,-2,0,2"/>
             </TabControl>
 
         </Grid>
