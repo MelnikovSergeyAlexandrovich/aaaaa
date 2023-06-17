@@ -19,10 +19,10 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0.4*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="CityTextBlock" Grid.ColumnSpan="4"  FontSize="18px" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" TextAlignment="Center" Height="50" Text="" TextWrapping="WrapWithOverflow"/>
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="c.ш." FontSize="13px" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock Grid.Column="3" Grid.Row="1" Text="в.д." FontSize="13px" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Text="55.45.07\\" FontSize="13px"/>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Text="55.45.07\\" FontSize="13px"/>
+        <TextBlock x:Name="CityTextBlock" Grid.ColumnSpan="4" Foreground="White" FontFamily="Jura" FontSize="18px" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" TextAlignment="Center" Height="50" Text="" TextWrapping="WrapWithOverflow"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="c.ш." FontSize="13px" Foreground="White" FontFamily="Jura" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Column="3" Grid.Row="1" Text="в.д." FontSize="13px" Foreground="White" FontFamily="Jura" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Jura" Grid.Row="1" Text="55.45.07\\" FontSize="13px"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontFamily="Jura" Grid.Row="1" Grid.Column="2" Text="55.45.07\\" FontSize="13px"/>
     </Grid>
 </UserControl>
