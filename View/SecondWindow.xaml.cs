@@ -1,4 +1,5 @@
 ﻿using SunClounds.View;
+using SunClounds.ViewModel;
 using System.Windows;
 
 namespace SunClounds
@@ -8,21 +9,7 @@ namespace SunClounds
         public SecondWindow()
         {
             InitializeComponent();
-            Weather.Content = new Diagram_Temp();
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Weather.Content = new Diagram_Pressure();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Weather.Content = new Diagram_Temp();
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            Weather.Content = new Diagram_FeelsLike();
+            this.DataContext = new SecondWindowViewModel();
         }
     }
 }
