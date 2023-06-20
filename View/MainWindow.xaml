@@ -27,10 +27,10 @@
                 <RowDefinition />
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Rectangle Fill="Aquamarine" Width="206" Height="158" Grid.RowSpan="3" Opacity="0.5"/>
+            <Rectangle Fill="{DynamicResource Main}" Width="206" Height="158" Grid.RowSpan="3" Opacity="0.5"/>
             <TextBlock Grid.Row="0" Text="SunClouds" FontFamily="Jura" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-            <TextBlock Grid.Row="1" VerticalAlignment="Center" Background="Beige" Height="30" Width="190" Text="Введите ваш город" TextAlignment="Center" />
-            <Button Grid.Row="2" Content="2 Страница" Height="30" Width="190" Click="SwitchToSecondWindow"/>
+            <TextBox Style="{DynamicResource TextBoxStyle1}" Background="{DynamicResource SecondaryWithApacity}" Grid.Row="1" VerticalAlignment="Center" Height="30" Width="190" Text="Введите ваш город" TextAlignment="Center" TextWrapping="WrapWithOverflow"  />
+            <Button Style="{DynamicResource ButtonStyle1}" Background="{DynamicResource Secondary}"  Grid.Row="2" Content="2 Страница" Height="30" Width="190" Click="SwitchToSecondWindow"/>
 
         </Grid>
         <Grid Grid.Row="0" Grid.Column="2" MinWidth="60" MinHeight="20">
@@ -39,9 +39,9 @@
                 <ColumnDefinition Width="20"/>
                 <ColumnDefinition Width="20"/>
             </Grid.ColumnDefinitions>
-            <Button   Grid.Column="2" Content="✖️" Height="20" Width="20" MinWidth="20" VerticalAlignment="Top" Click="CloseButton"/>
-            <Button   Grid.Column="1" Content="☐" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="20" MinWidth="20" Click="ResizeButton"/>
-            <Button   Grid.Column="0" Content="─"  Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" MinWidth="20" Click="MinimizeButton"/>
+            <Button Style="{DynamicResource ButtonStyle1}" Background="{x:Null}" Foreground="RED"   Grid.Column="2" Content="✖️" Height="20" Width="20" MinWidth="20" VerticalAlignment="Top" Click="CloseButton"/>
+            <Button Style="{DynamicResource ButtonStyle1}" Background="{x:Null}"    Grid.Column="1" Content="☐" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="20" MinWidth="20" Click="ResizeButton" Foreground="Black"/>
+            <Button Style="{DynamicResource ButtonStyle1}" Background="{x:Null}" Foreground="Black"   Grid.Column="0" Content="─"  Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" MinWidth="20" Click="MinimizeButton"/>
         </Grid>
     </Grid>
 </Window>

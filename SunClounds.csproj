@@ -118,6 +118,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Diagram.cs" />
+    <Compile Include="Model\Themes.cs" />
     <Compile Include="View\CityCard.xaml.cs">
       <DependentUpon>CityCard.xaml</DependentUpon>
     </Compile>
