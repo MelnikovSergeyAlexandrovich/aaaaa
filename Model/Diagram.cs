@@ -4,26 +4,33 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Controls;
 using static SunClounds.Diagram_Data;
 
-namespace SunClounds.View
+namespace SunClounds.Model
 {
-    public partial class Diagram_FeelsLike : Page
+    internal class Diagram_view
     {
+        public int variable;
+        private WpfPlot plotView;
         private string apiKey = "fb4ec98dbce85ed324c4b036f055f0d9";
         private string city = "Moscow";
-        public Diagram_FeelsLike()
+        public Diagram_view(WpfPlot plotView, int variable)
         {
-            InitializeComponent();
-            PressurePlotView.Plot.Title("Прогноз погоды");
-            PressurePlotView.Plot.XLabel("Время");
-            PressurePlotView.Plot.YLabel("Ощущается как");
-            PressurePlotView.Configuration.Zoom = false;
-            PressurePlotView.Configuration.LockHorizontalAxis = true;
-            PressurePlotView.Configuration.LockVerticalAxis = true;
-            PressurePlotView.Configuration.Quality = ScottPlot.Control.QualityMode.High;
+            this.plotView = plotView;
+            ConfigurePlot();
+            this.variable = variable;
+        }
+
+        private void ConfigurePlot()
+        {
+            plotView.Plot.XLabel("Время");
+            plotView.Plot.Title("Прогноз погоды");
+            plotView.Configuration.Zoom = false;
+            plotView.Configuration.LockHorizontalAxis = true;
+            plotView.Configuration.LockVerticalAxis = true;
+            plotView.Configuration.Quality = ScottPlot.Control.QualityMode.High;
             Forecast();
         }
 
@@ -42,12 +49,27 @@ namespace SunClounds.View
 
                 if (forecastDateTime >= currentDateTime && forecastDateTime <= currentDateTime.AddHours(24))
                 {
-                    double feels_like = item.Main.feels_like - 273;
-                    feels.Add(Math.Round(feels_like, 0));
-                    datetimes.Add(forecastDateTime);
+                    if (variable == 0)
+                    {
+                        double temp = item.Main.Temp - 273;
+                        feels.Add(Math.Round(temp, 0));
+                        datetimes.Add(forecastDateTime);
+                    }
+                    else if(variable == 1)
+                    {
+                        double feels_like = item.Main.feels_like - 273;
+                        feels.Add(Math.Round(feels_like, 0));
+                        datetimes.Add(forecastDateTime);
+                    }
+                    else if(variable == 2)
+                    {
+                        double pres = item.Main.Pressure / 1.333 - 10;
+                        feels.Add(Math.Round(pres, 0));
+                        datetimes.Add(forecastDateTime);
+                    }
                 }
             }
-            PlotPressureForecast(datetimes.ToArray(), feels.ToArray());
+            PlotForecast(datetimes.ToArray(), feels.ToArray());
         }
 
         public static async Task<WeatherForecast> GetWeatherForecast(string apiKey, string city)
@@ -68,22 +90,22 @@ namespace SunClounds.View
             }
         }
 
-        private void PlotPressureForecast(DateTime[] datetimes, double[] feellike)
+        private void PlotForecast(DateTime[] datetimes, double[] list)
         {
             double[] x = datetimes.Select(dt => dt.ToOADate()).ToArray();
-            PressurePlotView.Plot.XAxis.ManualTickPositions(x, datetimes.Select(dt => dt.ToString("HH:mm")).ToArray());
+            plotView.Plot.XAxis.ManualTickPositions(x, datetimes.Select(dt => dt.ToString("HH:mm")).ToArray());
 
-            var scatterPlot = PressurePlotView.Plot.AddScatter(x, feellike);
+            var scatterPlot = plotView.Plot.AddScatter(x, list);
             scatterPlot.MarkerSize = 10;
             scatterPlot.LineWidth = 3;
             scatterPlot.MarkerColor = System.Drawing.Color.BlueViolet;
             scatterPlot.LineColor = System.Drawing.Color.AliceBlue;
 
-            PressurePlotView.Plot.Style(ScottPlot.Style.Pink);
-            PressurePlotView.Plot.Grid(lineStyle: LineStyle.None);
-            PressurePlotView.Plot.XAxis.DateTimeFormat(true);
+            plotView.Plot.Style(ScottPlot.Style.Pink);
+            plotView.Plot.Grid(lineStyle: LineStyle.None);
+            plotView.Plot.XAxis.DateTimeFormat(true);
 
-            PressurePlotView.Refresh();
+            plotView.Refresh();
         }
     }
 }
