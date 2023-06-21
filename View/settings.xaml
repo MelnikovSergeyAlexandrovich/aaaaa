@@ -39,7 +39,7 @@ Text="Москва" TextAlignment="Center"/>
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="weatherConditions" Source="C:\Users\kosty\Downloads\ye2.jfif" Grid.ColumnSpan="3" Grid.Row="0"/>
+                <Image x:Name="weatherConditions" Grid.ColumnSpan="3" Grid.Row="0"/>
                 <Grid Grid.Column="3">
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -50,7 +50,7 @@ TextAlignment="Center"/>
                     <TextBlock x:Name="feelLikesTemp" Grid.Row="1" Text="Ощущается как, 25°" VerticalAlignment="Top"
 TextAlignment="Center"/>
                 </Grid>
-                <Image x:Name="weatherConditions2" Source="C:\Users\kosty\Downloads\ye2.jfif" Grid.Column="1" Grid.Row="1"/>
+                <Image x:Name="weatherConditions2" Grid.Column="1" Grid.Row="1"/>
                 <TextBlock x:Name="time" Grid.Row="1" Text="16:00" TextAlignment="Center"
 VerticalAlignment="Center"/>
                 <Grid Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1">
@@ -63,7 +63,7 @@ TextAlignment="Center"/>
                     <TextBlock x:Name="feelLikesTemp2" Grid.Row="1" Text="Ощущается как, 25°" VerticalAlignment="Top"
 TextAlignment="Center"/>
                 </Grid>
-                <Image x:Name="weatherConditions3" Source="C:\Users\kosty\Downloads\ye2.jfif" Grid.Column="1" Grid.Row="2"/>
+                <Image x:Name="weatherConditions3" Grid.Column="1" Grid.Row="2"/>
                 <TextBlock x:Name="time2" Grid.Row="2" Text="16:00" TextAlignment="Center"
 VerticalAlignment="Center"/>
                 <Grid Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="2">
@@ -76,7 +76,7 @@ TextAlignment="Center"/>
                     <TextBlock x:Name="feelLikesTemp3" Grid.Row="1" Text="Ощущается как, 25°" VerticalAlignment="Top"
 TextAlignment="Center"/>
                 </Grid>
-                <Image x:Name="weatherConditions4" Source="C:\Users\kosty\Downloads\ye2.jfif" Grid.Column="1" Grid.Row="3"/>
+                <Image x:Name="weatherConditions4" Grid.Column="1" Grid.Row="3"/>
                 <TextBlock x:Name="time3" Grid.Row="3" Text="16:00" TextAlignment="Center"
 VerticalAlignment="Center"/>
                 <Grid Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3">
