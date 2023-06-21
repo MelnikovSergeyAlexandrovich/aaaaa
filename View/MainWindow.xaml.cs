@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunClounds.Model;
+using System;
 using System.Windows;
 
 namespace SunClounds
@@ -9,6 +10,7 @@ namespace SunClounds
         public MainWindow()
         {
             InitializeComponent();
+            Themes.Changer(this);
             /*CityCard card = new CityCard();
             card.CityTextBlock.Text = "ПодольскПодольскПодольск";
             listbox.Items.Add(card);
