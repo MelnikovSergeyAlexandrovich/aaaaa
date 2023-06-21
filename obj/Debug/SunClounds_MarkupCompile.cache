@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\klink\Source\Repos\newRepfinalPract\obj\Debug\
+C:\Users\klink\source\repos\newRepfinalPract\obj\Debug\
 SunClounds
 none
 false
 DEBUG;TRACE
-C:\Users\klink\Source\Repos\newRepfinalPract\App.xaml
+C:\Users\klink\source\repos\newRepfinalPract\App.xaml
 81808489018
-10-1536920374
-16-1692857627
-1351967695632
+10-1943470070
+18-1652474759
+135632724944
 View\CityCard.xaml;View\Diagram_FeelsLike.xaml;View\Diagram_Pressure.xaml;View\Diagram_Temp.xaml;View\MainWindow.xaml;View\SecondWindow.xaml;View\Settings.xaml;View\WeatherCard.xaml;
 
-False
+True
 
