@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Brush x:Key="Main">#F8C5B4</Brush>
+    <Brush x:Key="Secondary">#87B6CA</Brush>
+    <Brush x:Key="Focus">#3D95B9</Brush>
+    <Brush x:Key="BckGrndCtrl">#3D95B9</Brush>
+    <SolidColorBrush x:Key="SecondaryWithApacity" Color="#87B6CA" Opacity="0.5"/>
+    <ImageBrush x:Key="BackgroundWin" ImageSource="/Img/Day.png"/>
+</ResourceDictionary>
