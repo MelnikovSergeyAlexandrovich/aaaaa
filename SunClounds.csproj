@@ -125,6 +125,9 @@
     <Compile Include="View\SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\settings.xaml.cs">
+      <DependentUpon>settings.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\WeatherCard.xaml.cs">
       <DependentUpon>WeatherCard.xaml</DependentUpon>
     </Compile>
@@ -145,6 +148,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\settings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
