@@ -5,43 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
        
+        
        Title="MainWindow" Height="450" Width="800" MinHeight="158" MinWidth="206"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
-        AllowsTransparency="True"
        >
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition Height="auto"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="1" Grid.Column="1" >
+        <Grid Grid.Row="1" Grid.Column="1" MinHeight="158" MinWidth="206" Height="158" Width="206">
             <Grid.RowDefinitions>
                 <RowDefinition/>
-                <RowDefinition />
+                <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Rectangle Fill="Aquamarine" Width="206" Height="158" Grid.RowSpan="3" Opacity="0.5"/>
-            <TextBlock Grid.Row="0" Text="SunClouds" FontFamily="Jura" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-            <TextBlock Grid.Row="1" VerticalAlignment="Center" Background="Beige" Height="30" Width="190" Text="Введите ваш город" TextAlignment="Center" />
-            <Button Grid.Row="2" Content="2 Страница" Height="30" Width="190" Click="SwitchToSecondWindow"/>
-
+            <Rectangle Fill="Aquamarine" Grid.RowSpan="3" Opacity="0.5" />
+                <TextBox Grid.Row="0" Text="SunClouds" FontFamily="Jura" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20"/>
+                <TextBlock Grid.Row="1" VerticalAlignment="Center" Background="Beige" Height="30" Width="190" Text="Введите ваш город" TextAlignment="Center"  />
+            <Button Grid.Row="2" Content="2 Страница" Height="30" Width="190" VerticalAlignment="Center" Click="SwitchToSecondWindow" HorizontalAlignment="Center"/>
         </Grid>
-        <Grid Grid.Row="0" Grid.Column="2" MinWidth="60" MinHeight="20">
+        <Grid  MinWidth="60" MinHeight="20" Width="60" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="20"/>
                 <ColumnDefinition Width="20"/>
                 <ColumnDefinition Width="20"/>
             </Grid.ColumnDefinitions>
-            <Button   Grid.Column="2" Content="✖️" Height="20" Width="20" MinWidth="20" VerticalAlignment="Top" Click="CloseButton"/>
-            <Button   Grid.Column="1" Content="☐" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="20" MinWidth="20" Click="ResizeButton"/>
-            <Button   Grid.Column="0" Content="─"  Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" MinWidth="20" Click="MinimizeButton"/>
+            <Button   Grid.Column="2" Content="✖️" HorizontalAlignment="Right" VerticalAlignment="Top" Click="CloseButton"/>
+            <Button   Grid.Column="1" Content="☐"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="20" Click="ResizeButton"/>
+            <Button   Grid.Column="0" Content="─"   VerticalAlignment="Top" HorizontalAlignment="Right" Width="20"  Click="MinimizeButton"/>
         </Grid>
     </Grid>
 </Window>
